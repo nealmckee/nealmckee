@@ -1,6 +1,6 @@
 body
 {
-	overflow: hidden;
+	overflow: hidden; 
 }
 
 a
@@ -44,14 +44,35 @@ a:hover
 /* content */
 #content
 {
-	font-family: montserrat;
+	/* Standard */
+	height: calc(100% - 150px);
+	/* Firefox */
+	height: -moz-calc(100% - 150px);
+	/* WebKit */
+	height: -webkit-calc(100% - 150px);
+	/* Opera */
+	height: -o-calc(100% - 150px);
+	/* Standard */
+	width: calc(100% - 360px);
+	/* Firefox */
+	width: -moz-calc(100% - 360px);
+	/* WebKit */
+	width: -webkit-calc(100% - 360px);
+	/* Opera */
+	width: -o-calc(100% - 360px);
+	overflow-x:hidden;
+	overflow-y: auto;
+	position: absolute;
+	top: 70px;
+	left: 360px;
+}
+
+#imprint
+{
+	font-family: montserrat, avenir next, helvetica neue, sans-serif;
 	font-size: 12px;
-	margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    width: 90%;
     position: absolute;
-    top: 150px;
-    left: 360px;
 }
 
 #copyright

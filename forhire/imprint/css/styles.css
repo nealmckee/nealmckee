@@ -1,6 +1,6 @@
 body
 {
-	overflow: hidden;
+	overflow: hidden; 
 }
 
 a
@@ -60,7 +60,8 @@ a:hover
 	width: -webkit-calc(100% - 360px);
 	/* Opera */
 	width: -o-calc(100% - 360px);
-	overflow-x:scroll;
+	overflow-x:hidden;
+	overflow-y: auto;
 	position: absolute;
 	top: 70px;
 	left: 360px;

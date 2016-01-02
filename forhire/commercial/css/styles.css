@@ -80,11 +80,13 @@ a:hover
 	margin-top: -17px;
 	margin-left: -40px;
 	display: inline-block;
+	height: 100%;
 }
 /* content wrapper each */
 figure
 {
 	font-family: inconsolata;
+	height: 100%; /* firefox img-resize-requirement */
 }
 /* content images */
 #scroll img

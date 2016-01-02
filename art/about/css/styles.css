@@ -46,11 +46,19 @@ a:hover
 {
 	font-family: montserrat;
 	font-size: 18px;
+	line-height: 24px;
 	margin-left: auto;
     margin-right: auto;
     width: 50%;
     position: absolute;
-    top: 75px;
+    /* Standard */
+    top: calc(61.8% - 96px);
+    /* WebKit */
+    top: -webkit-calc(61.8% - 96px);
+    /* Firefox */
+    top: -moz-calc(61.8% - 96px);
+    /* Opera */
+    top: -o-calc(61.8% - 96px);
     left: 360px;
 }
 

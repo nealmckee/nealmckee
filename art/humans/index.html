@@ -4,26 +4,40 @@
 
 	<head id="head">
 		<title>Neal McKee</title>	
-		<link href="../css/styles.css" type="text/css" rel="stylesheet" />
+		<link href="css/styles.css" type="text/css" rel="stylesheet" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
 			</script>
 		<script type='text/javascript' src='../../js/jquery-mousewheel/jquery.mousewheel.min.js'>
 			</script>
 		<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+		<link rel="icon" type="image/png" href="../../images/favicon.png">
+
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-71909321-1', 'auto');
+			ga('set', 'anonymizeIp', true);
+  			ga('send', 'pageview');
+		</script>
+		
 	</head>
 
 	<body id="body">
 
 		<script type="text/javascript">
-				$(function() {
-					$("html, body, *").mousewheel(function(event, delta) {
-						this.scrollLeft -= (delta * 3);
-						this.scrollRight -= (delta * 3);
-						event.preventDefault();
-					});
+			$(function() {
+				$("html, body, *").mousewheel(function(event, delta) {
+					this.scrollLeft -= (delta * 3);
+					this.scrollRight -= (delta * 3);
+					event.preventDefault();
 				});
-			</script>
-
+			});
+		</script>
+		
 		<ul>
 		<li id="logo"><a href="../../index.html">NEAL MCKEE</a></li>
 		</ul>
@@ -32,7 +46,7 @@
 			<ul>
 				<li class="navbar"><a href="../abstract/index.html">abstract</a></li>
 				<li class="navbar" style="word-spacing: 0px"><a href="../still life/index.html">still life</a></li>
-				<li class="navbar"><a href="#">humans</a></li>
+				<li class="navbar"><a style="color:#bcbcbc;" href="">humans</a></li>
 				<li class="navbar"><a href="../installations/index.html">installations</a></li>
 				<li class="navbar" style="word-spacing: 0px;"><a href="../exhibition views/index.html">exhibition views</a></li>
 				<li class="navbar"><a href="../about/index.html">about</a></li>
@@ -41,19 +55,40 @@
 		</div>	
 			
 		<div id="wrapper">
-		<div id="scroll" class="flexscroll">
+		<div id="scroll">
 			<div id="img_each">
-				<p>Kitty eats Spaghetti - 2015, Kitchen</p><img src="images/essen.jpg" class="essen" alt=""><span></span>
+				<figure>
+					<img src="../images/humans1.jpg" alt="">
+					<div id="outer">
+						<figcaption>Tristan, versteckt, 2015</figcaption>
+					</div>
+				</figure>
 			</div>
 			<div id="img_each">
-				<p>Kitty on shoulder - 2003, Kitchen</p><img src="images/schulter.jpg" class="schulter" alt=""><span></span>
+				<figure>
+					<img src="../images/humans2.jpg" alt="">
+					<div id="outer">
+						<figcaption>Volksgarten, 2015</figcaption>
+					</div>
+				</figure>
+			</div>				
+			<div id="img_each">
+				<figure>
+					<img src="../images/humans3.jpg" alt="">
+					<div id="outer">
+						<figcaption>Stick, 2015</figcaption>
+					</div>
+				</figure>
 			</div>
 			<div id="img_each">
-				<img src="images/kuscheln.jpg" class="kuscheln" alt=""><span></span>
+				<figure>
+					<img style="padding-right: 338px;" src="../images/humans4.jpg" alt="">
+					<div id="outer">
+						<figcaption>Tristan, geblendet, 2013</figcaption>
+					</div>
+				</figure>
 			</div>
-			<div id="img_each">
-				<img style="margin-right: 360px;" src="images/schlecken.jpg" class="schlecken" alt=""><span></span>
-			</div>
+			
 		</div>
 		</div>
 

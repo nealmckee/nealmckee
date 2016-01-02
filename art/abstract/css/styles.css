@@ -52,7 +52,14 @@ a:hover
 	height: -webkit-calc(100% - 30px);
 	/* Opera */
 	height: -o-calc(100% - 30px);
-	width: 90%;
+	/* Standard */
+	width: calc(100% - 360px);
+	/* Firefox */
+	width: -moz-calc(100% - 360px);
+	/* WebKit */
+	width: -webkit-calc(100% - 360px);
+	/* Opera */
+	width: -o-calc(100% - 360px);
 	overflow-x:scroll;
 	overflow-y: hidden; 
 	position: absolute;
@@ -65,7 +72,21 @@ a:hover
 #scroll
 {
 	width: 90%;
-	height: calc(100% - 33px);
+	height: calc(100% - 50px);
+}
+/* content elements */
+#img_each
+{
+	margin-top: -17px;
+	margin-left: -40px;
+	display: inline-block;
+	height: 100%;
+}
+/* content wrapper each */
+figure
+{
+	font-family: inconsolata;
+	height: 100%; /* firefox img-resize-requirement */
 }
 /* content images */
 #scroll img
@@ -73,41 +94,23 @@ a:hover
 	width: auto;
 	height: 720px;
 	max-height: 100%;
-	margin-right: 30px;
+	margin-right: -14px;
 	margin-bottom: 100px;
 }
-/* content elements */
-#img_each
-{
-	margin-right: 40px;
-	display: inline-block;
-}
-/* content images:hover */
-#scroll img:hover
-{
-	opacity: 0.5;
-	z-index: 1;
-}
-/* image caption */
-#parag
+/* figcaption wrapper */
+#outer
 {
 	position: absolute;
-	z-index: -1;
-	font-size: 18px;
-	font-family: inconsolata;
-	font-weight: 400;
 }
-#scroll p
-{
-
-	margin-top: 0;
-}
-
-#img_each p
+/* figcaptions */
+figcaption
 {
 	text-align: center;
+	margin-top: -100px;
+	width: 100%;
+	font-size: 16px;
+	line-height: 32px;
 }
-
 /* copyright */
 #copyright
 {
