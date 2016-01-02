@@ -1,0 +1,21 @@
+a
+{
+	font-family: montserrat, avenir next, helvetica neue, sans-serif;
+	font-size: 19.1vw;
+	font-weight: 700;
+	line-height: 9.55vw;
+	text-decoration: none;
+	color: #bcbcbc;
+}
+
+a:hover
+{
+	color: black;
+}
+
+#soon
+{
+	text-align: center;
+	margin-top: 25%;
+	transform: translateY(-50%);
+}  

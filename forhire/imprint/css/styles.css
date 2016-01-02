@@ -1,0 +1,84 @@
+body
+{
+	overflow: hidden;
+}
+
+a
+{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover
+{
+	color: #bcbcbc;
+}
+
+#navigation
+{
+	line-height: 24px;
+	display: inline-block;
+	float: left;
+	margin: 50px 0 0 -30px;
+	font-size: 24px;
+}
+
+.navbar
+{
+	display:block;
+	word-spacing: 2em;
+	font-family: inconsolata, lucida console, monaco, monospace;
+	color: black;
+}
+
+#logo
+{
+	font-size: 48px;
+	position: absolute;
+	font-family: montserrat, avenir next, helvetica neue, sans-serif;
+	font-weight: 700;
+	margin: 30px 0 0 -30px;
+	display: block;
+	line-height: 0px;
+}
+/* content */
+#content
+{
+	/* Standard */
+	height: calc(100% - 150px);
+	/* Firefox */
+	height: -moz-calc(100% - 150px);
+	/* WebKit */
+	height: -webkit-calc(100% - 150px);
+	/* Opera */
+	height: -o-calc(100% - 150px);
+	/* Standard */
+	width: calc(100% - 360px);
+	/* Firefox */
+	width: -moz-calc(100% - 360px);
+	/* WebKit */
+	width: -webkit-calc(100% - 360px);
+	/* Opera */
+	width: -o-calc(100% - 360px);
+	overflow-x:scroll;
+	position: absolute;
+	top: 70px;
+	left: 360px;
+}
+
+#imprint
+{
+	font-family: montserrat, avenir next, helvetica neue, sans-serif;
+	font-size: 12px;
+    width: 90%;
+    position: absolute;
+}
+
+#copyright
+{
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	float: left;
+	font-family: inconsolata, lucida console, monaco, monospace;
+}

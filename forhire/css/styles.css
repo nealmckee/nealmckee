@@ -1,0 +1,121 @@
+body
+{
+	overflow: hidden;
+}
+
+a
+{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover
+{
+	color: #bcbcbc;
+}
+/* navigation bar */
+#navigation
+{
+	line-height: 24px;
+	display: inline-block;
+	float: left;
+	margin: 50px 0 0 -30px;
+	font-size: 24px;
+}
+/* navigation bar elements */
+.navbar
+{
+	display:block;
+	word-spacing: 2em;
+	font-family: inconsolata, lucida console, monaco, monospace;
+	color: black;
+}
+/* Logo */
+#logo
+{
+	font-size: 48px;
+	position: absolute;
+	font-family: montserrat, avenir next, helvetica neue, sans-serif;
+	font-weight: 700;
+	margin: 30px 0 0 -30px;
+	display: block;
+	line-height: 0px;
+}
+/* content outermost container */
+#wrapper
+{
+	/* Standard */
+	height: calc(100% - 30px);
+	/* Firefox */
+	height: -moz-calc(100% - 30px);
+	/* WebKit */
+	height: -webkit-calc(100% - 30px);
+	/* Opera */
+	height: -o-calc(100% - 30px);
+	/* Standard */
+	width: calc(100% - 360px);
+	/* Firefox */
+	width: -moz-calc(100% - 360px);
+	/* WebKit */
+	width: -webkit-calc(100% - 360px);
+	/* Opera */
+	width: -o-calc(100% - 360px);
+	overflow-x:scroll;
+	overflow-y: hidden; 
+	position: absolute;
+	top: 30px;
+	left: 360px;
+	white-space: nowrap;
+	max-width: 100%;
+}
+/* content outer container */
+#scroll
+{
+	width: 90%;
+	height: calc(100% - 33px);
+}
+/* content elements */
+#img_each
+{
+	margin-top: -17px;
+	margin-left: -40px;
+	display: inline-block;
+}
+/* content wrapper each */
+figure
+{
+	font-family: inconsolata;
+}
+/* content images */
+#scroll img
+{
+	width: auto;
+	height: 720px;
+	max-height: 100%;
+	margin-right: 30px;
+	margin-bottom: 100px;
+}
+/* figcaption wrapper */
+#outer
+{
+	position: absolute;
+}
+/* figcaptions */
+figcaption
+{
+	text-align: center;
+	margin-top: -100px;
+	width: 100%;
+	font-size: 16px;
+	line-height: 32px;
+}
+/* copyright */
+#copyright
+{
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	float: left;
+	font-family: inconsolata, lucida console, monaco, monospace;
+	font-size: 16px;
+}

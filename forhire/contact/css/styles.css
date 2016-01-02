@@ -1,0 +1,70 @@
+body
+{
+	overflow: hidden;
+}
+
+a
+{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover
+{
+	color: #bcbcbc;
+}
+
+#navigation
+{
+	line-height: 24px;
+	display: inline-block;
+	float: left;
+	margin: 50px 0 0 -30px;
+	font-size: 24px;
+}
+
+.navbar
+{
+	display:block;
+	word-spacing: 2em;
+	font-family: inconsolata, lucida console, monaco, monospace;
+	color: black;
+}
+
+#logo
+{
+	font-size: 48px;
+	position: absolute;
+	font-family: montserrat, avenir next, helvetica neue, sans-serif;
+	font-weight: 700;
+	margin: 30px 0 0 -30px;
+	display: block;
+	line-height: 0px;
+}
+
+#content
+{
+	font-family: inconsolata;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 36px;
+    position: absolute;
+    /* Standard */
+    top: calc(61.8% - 74px);
+    /* WebKit */
+    top: -webkit-calc(61.8% - 74px);
+    /* Firefox */
+    top: -moz-calc(61.8% - 74px);
+    /* Opera */
+    top: -o-calc(61.8% - 74px);
+    left: 360px;
+}
+
+#copyright
+{
+	position: absolute;
+	bottom: 1em; /* <0 */
+	left: 1em;
+	float: left;
+	font-family: inconsolata, lucida console, monaco, monospace;
+}

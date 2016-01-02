@@ -1,0 +1,64 @@
+body
+{
+	overflow: hidden;
+}
+
+a
+{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover
+{
+	color: #bcbcbc;
+}
+
+#navigation
+{
+	line-height: 24px;
+	display: inline-block;
+	float: left;
+	margin: 50px 0 0 -30px;
+	font-size: 24px;
+}
+
+.navbar
+{
+	display:block;
+	word-spacing: 2em;
+	font-family: inconsolata, lucida console, monaco, monospace;
+	color: black;
+}
+
+#logo
+{
+	font-size: 48px;
+	position: absolute;
+	font-family: montserrat, avenir next, helvetica neue, sans-serif;
+	font-weight: 700;
+	margin: 30px 0 0 -30px;
+	display: block;
+	line-height: 0px;
+}
+/* content */
+#content
+{
+	font-family: montserrat;
+	font-size: 12px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    position: absolute;
+    top: 150px;
+    left: 360px;
+}
+
+#copyright
+{
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	float: left;
+	font-family: inconsolata, lucida console, monaco, monospace;
+}

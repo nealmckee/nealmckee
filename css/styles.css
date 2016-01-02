@@ -1,0 +1,52 @@
+body
+{
+	background-image: url("../images/vertical_line.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+a
+{
+	text-decoration: none;
+	color: #aaaaaa;
+}
+
+a:hover
+{
+	color:black;
+}
+
+#left
+{
+	float: left;
+	width: 50%;
+}
+
+#right
+{
+	float: right;
+	width: 50%;
+}
+
+#art, #hire
+{
+	font-family: montserrat;
+	font-weight: 700;
+}
+#art
+{
+	position: relative;
+	margin-top: calc(38.2vh - 8.557vw);
+	font-size: 19.1vw;
+	line-height: 19.1vw;
+	text-align: center;
+}
+
+#hire
+{
+	position: relative;
+	margin-top: calc(38.2vh - 8.398vw);
+	font-size: 11.8vw;
+	line-height: 10vw;
+	text-align: center;
+}
