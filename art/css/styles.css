@@ -81,11 +81,6 @@ a:hover
 	margin-left: -40px;
 	display: inline-block;
 }
-/* content p:hover */
-#scroll p:hover
-{
-	position: absolute;
-}
 /* content wrapper each */
 figure
 {
@@ -99,12 +94,6 @@ figure
 	max-height: 100%;
 	margin-right: 30px;
 	margin-bottom: 100px;
-}
-/* content images:hover */
-#scroll img:hover
-{
-	opacity: 0.5;
-	z-index: 999;
 }
 /* figcaption wrapper */
 #outer
