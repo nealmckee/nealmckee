@@ -72,7 +72,7 @@ a:hover
 #scroll
 {
 	width: 90%;
-	height: calc(100% - 33px);
+	height: calc(100% - 50px);
 }
 /* content elements */
 #img_each
@@ -80,11 +80,13 @@ a:hover
 	margin-top: -17px;
 	margin-left: -40px;
 	display: inline-block;
+	height: 100%;
 }
 /* content wrapper each */
 figure
 {
 	font-family: inconsolata;
+	height: 100%; /* firefox img-resize-requirement */
 }
 /* content images */
 #scroll img
@@ -92,7 +94,7 @@ figure
 	width: auto;
 	height: 720px;
 	max-height: 100%;
-	margin-right: 30px;
+	margin-right: -14px;
 	margin-bottom: 100px;
 }
 /* figcaption wrapper */
