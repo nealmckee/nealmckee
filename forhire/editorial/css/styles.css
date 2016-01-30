@@ -93,7 +93,7 @@ figure
 {
 	width: auto;
 	height: 720px;
-	max-height: 720px;
+	max-height: 100%;
 	margin-right: -14px;
 	margin-bottom: 100px;
 }
@@ -105,6 +105,7 @@ figure
 /* figcaptions */
 figcaption
 {
+	text-align: center;
 	margin-top: -100px;
 	width: 100%;
 	font-size: 16px;
