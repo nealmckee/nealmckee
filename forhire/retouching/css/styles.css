@@ -67,6 +67,7 @@ a:hover
 	left: 360px;
 	white-space: nowrap;
 	max-width: 100%;
+	-webkit-overflow-scrolling: touch;
 }
 /* content outer container */
 #scroll
