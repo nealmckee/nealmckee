@@ -67,14 +67,12 @@ a:hover
 	left: 360px;
 	white-space: nowrap;
 	max-width: 100%;
-	-webkit-overflow-scrolling: touch;
 }
 /* content outer container */
 #scroll
 {
 	width: 90%;
 	height: calc(100% - 50px);
-	-webkit-overflow-scrolling: touch;
 }
 /* content elements */
 #img_each
@@ -83,7 +81,6 @@ a:hover
 	margin-left: -40px;
 	display: inline-block;
 	height: 100%;
-	-webkit-overflow-scrolling: touch;
 }
 /* content wrapper each */
 figure
