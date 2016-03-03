@@ -81,6 +81,7 @@ a:hover
 	margin-left: -40px;
 	display: inline-block;
 	height: 100%;
+	-webkit-overflow-scrolling: touch;
 }
 /* content wrapper each */
 figure
