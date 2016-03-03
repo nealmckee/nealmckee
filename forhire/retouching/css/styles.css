@@ -83,14 +83,12 @@ a:hover
 	margin-left: -40px;
 	display: inline-block;
 	height: 100%;
-	-webkit-overflow-scrolling: touch;
 }
 /* content wrapper each */
 figure
 {
 	font-family: inconsolata;
 	height: 100%; /* firefox img-resize-requirement */
-	-webkit-overflow-scrolling: touch;
 }
 /* content images */
 #scroll img
@@ -100,7 +98,6 @@ figure
 	max-height: 100%;
 	margin-right: -14px;
 	margin-bottom: 100px;
-	-webkit-overflow-scrolling: touch;
 }
 /* figcaption wrapper */
 #outer
