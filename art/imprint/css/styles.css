@@ -65,6 +65,7 @@ a:hover
 	position: absolute;
 	top: 70px;
 	left: 360px;
+	-webkit-overflow-scrolling: touch;
 }
 
 #imprint
