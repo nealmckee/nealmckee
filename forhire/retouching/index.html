@@ -34,22 +34,11 @@
 		<script type="text/javascript">
 			$(function() {
 				$("html, body, *").mousewheel(function(event, delta) {
-					this.scrollLeft -= (delta * 10);
+					this.scrollLeft -= (delta = auto);
 					
 					event.preventDefault();
 				});
 				
-				
-				$(document).unbind('mousewheel DOMMouseScroll').on('mousewheel DOMMouseScroll', function(event) {
-          var delta = event.originalEvent.detail < 0 || event.originalEvent.wheelDelta > 0 ? 1 : -1;
- 
-          if (delta < 0) {
-            // scroll down
-          } else {
-            // scroll up
-          }
-          return false;
-        });
 			});
 			
 		</script>
