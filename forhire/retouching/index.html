@@ -34,19 +34,13 @@
 		<script type="text/javascript">
 		
 			var isWin = navigator.platform.indexOf("Win") != -1;
-			
-			// Get a whole value for the deltas
-    fn = delta > 0 ? 'floor' : 'ceil';
-    delta  = Math[fn](delta / lowestDelta);
-    deltaX = Math[fn](deltaX / lowestDeltaXY);
-    deltaY = Math[fn](deltaY / lowestDeltaXY);
-
-    // On windows, use a constant factor to speed up scrolling.
-    if (isWin) {
-      delta *= 20;
-      deltaX *= 20;
-      deltaY *= 20;
-    }
+		
+		
+			  // On windows, use a constant factor to speed up scrolling.
+				  if (isWin) {
+					 
+					 deltaY *= 20;
+					 }
 		
 			$(function() {
 				$("html, body, *").mousewheel(function(event, delta) {
