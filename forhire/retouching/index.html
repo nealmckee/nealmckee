@@ -34,8 +34,8 @@
 		<script type="text/javascript">
 			$(function() {
 				$("html, body, *").mousewheel(function(event, delta) {
-					this.scrollLeft -= (delta * 10);
-					this.scrollRight -= (delta * 10);
+					this.scrollLeft -= (delta *= 20);
+					this.scrollRight -= (delta *= 20);
 					event.preventDefault();
 				});
 			});
