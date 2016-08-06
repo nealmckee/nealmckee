@@ -33,12 +33,16 @@
 
 		<script type="text/javascript">
 			$(function() {
-				$("html, body, *").mousewheel(function(event, delta) {
-					this.scrollLeft -= (delta = 30);
-					this.scrollRight -= (delta = 30);
-					event.preventDefault();
-				});
-			});
+
+   $("body").mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta * 30);
+
+      event.preventDefault();
+
+   });
+
+});
 		</script>
 
 		<ul>
