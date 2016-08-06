@@ -38,8 +38,9 @@
 		
 			  // On windows, use a constant factor to speed up scrolling.
 				  if (isWin) {
-					 
-					 deltaY *= 20;
+					 deltaFactor *= 200;
+					 deltaX *= 200;
+					 deltaY *= 200;
 					 }
 		
 			$(function() {
