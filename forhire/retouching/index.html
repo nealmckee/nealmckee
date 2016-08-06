@@ -34,20 +34,20 @@
 		<script type="text/javascript">
 		
 			var isWin = navigator.platform.indexOf("Win") != -1;
+			
+			if (isWin) {
+			     delta *= 200;
+			     deltaX *= 200;
+			    deltaY *= 200;
+				 }
 		
 			$(function() {
 				$("html, body, *").mousewheel(function(event, delta) {
 					this.scrollLeft -= (delta * 5);
-					
+					this.scrollRight -= (delta * 5);
 					event.preventDefault();
 				});
-				
-				// On windows, use a constant factor to speed up scrolling.
-    if (isWin) {
-      delta *= 200;
-      deltaX *= 200;
-      deltaY *= 200;
-    }
+
 				
 			});
 			
