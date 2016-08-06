@@ -39,7 +39,21 @@
 					event.preventDefault();
 				});
 				
-			
+				function wheelDistance(e) {
+    
+    // IE8 and below doesn't pass the event object
+    e = e || event;
+    
+    if ( e.wheelDelta ) {
+        return e.wheelDelta / 120;    
+    }
+    
+    // Firefox doesn't implement wheelDelta
+    if ( e.detail ) {
+        return -e.detail / 3;    
+    }
+
+};
 				
 			});
 			
