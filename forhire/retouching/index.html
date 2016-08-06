@@ -43,7 +43,8 @@
 		
 			$(function() {
 				$("html, body, *").mousewheel(function(event, delta) {
-					
+					this.scrollLeft -= (delta * 5);
+					this.scrollRight -= (delta * 5);
 					event.preventDefault();
 				});
 
