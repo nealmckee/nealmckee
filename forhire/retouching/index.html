@@ -32,12 +32,22 @@
 	<body id="body">
 
 		<script type="text/javascript">
+		
+			var isWin = navigator.platform.indexOf("Win") != -1;
+		
 			$(function() {
 				$("html, body, *").mousewheel(function(event, delta) {
 					this.scrollLeft -= (delta * 5);
 					
 					event.preventDefault();
 				});
+				
+				// On windows, use a constant factor to speed up scrolling.
+    if (isWin) {
+      delta *= 20;
+      deltaX *= 20;
+      deltaY *= 20;
+    }
 				
 			});
 			
