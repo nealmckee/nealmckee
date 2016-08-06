@@ -33,14 +33,11 @@
 
 		<script type="text/javascript">
 			$(function() {
-				$('body').on('mousewheel DOMMouseScroll', function(event){
-
-        var delta = Math.max(-1, Math.min(1, (event.originalEvent.wheelDelta || -event.originalEvent.detail)));
-
-        $(this).scrollLeft( $(this).scrollLeft() - ( delta * 40 ) );
-        event.preventDefault();
-
-    });
+				$("html, body, *").mousewheel(function(event, delta) {
+					this.scrollLeft -= (delta * 3);
+					this.scrollRight -= (delta * 3);
+					event.preventDefault();
+				});
 			});
 		</script>
 
