@@ -98,6 +98,15 @@ figure
 	margin-right: -14px;
 	margin-bottom: 100px;
 }
+
+#scroll iframe
+{
+	width: 1280px;
+	height: 720px;
+	max-height: 100%;
+	margin-right: -14px;
+	margin-bottom: 100px;
+}
 /* figcaption wrapper */
 #outer
 {
